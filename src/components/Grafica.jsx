@@ -6,7 +6,7 @@ import { ReactFlow, Background, Controls,applyEdgeChanges,MarkerType, applyNodeC
 import { useCallback,useEffect, useState } from 'react';
 import CustomNode from './CustomNode.jsx';
 import '@xyflow/react/dist/style.css';
-import './grafica.css';
+import './Grafica.css';
 
 const nodeTypes = {
   custom: CustomNode,
