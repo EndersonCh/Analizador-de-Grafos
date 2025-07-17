@@ -12,8 +12,6 @@ const nodeTypes = {
   custom: CustomNode,
 };
 
-
-
 export default function Grafica({nodosLista=[],conexionesLista=[]}) {
   const [nodosfinal, setNodes] = useState([]);
   const [conexionesfinal, setEdges] = useState([]);
